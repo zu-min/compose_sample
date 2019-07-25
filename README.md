@@ -3,5 +3,5 @@
 $ docker-compose build
 $ docker-compose up
 $ docker-compose down
-$ docker-compose exec rails db:migrate
+$ docker-compose exec bundle exec rails db:migrate
 ```
